@@ -1,0 +1,7 @@
+/tmp
+/vendor
+/config/application.yml
+.idea/
+/.DS_Store
+.DS_Store
+/log/development.log

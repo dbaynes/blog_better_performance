@@ -6,7 +6,7 @@ class PostsController < ApplicationController
   # GET /posts
   # GET /posts.json
   def index
-    logger.info("@@@@POST INDEX!")
+    logger.info("@@@@POST INDEX!!")
     #@posts = Post.page(params[:page]).per_page(10)
     @posts = Post.includes(:comments)
 
